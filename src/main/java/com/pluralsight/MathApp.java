@@ -21,6 +21,10 @@ public class MathApp {
 
         System.out.printf("Area of a circle equals to %.2f%n",circleArea);
 
+        double myNumber = 5.0;
+        double result = Math.sqrt(myNumber);
+
+        System.out.printf("The square root of %.1f is %.2f%n" ,myNumber, result);
 
     }
 }
