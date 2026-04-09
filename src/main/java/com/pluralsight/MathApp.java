@@ -37,5 +37,13 @@ public class MathApp {
 
         System.out.println("Distance between first two point is: " + distanceFirstAndSecond );
         System.out.println("Distance between second two point is: " + distanceThirdAndFourth );
+
+        double givingNumber = -3.8;
+
+        double absoluteValue = Math.abs(givingNumber);
+        System.out.println("The absolute value is: " + absoluteValue);
+
+        int randomNumber = (int)(Math.random() * 1);
+        System.out.print("My random number is: " + randomNumber);
     }
 }
