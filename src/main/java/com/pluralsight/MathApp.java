@@ -44,6 +44,14 @@ public class MathApp {
         System.out.println("The absolute value is: " + absoluteValue);
 
         int randomNumber = (int)(Math.random() * 1);
-        System.out.print("My random number is: " + randomNumber);
+        System.out.println("My random number is: " + randomNumber);
+
+        int days = 24;
+
+        int minutesInDays = 24 * 60;
+        int millisecondsInDays = minutesInDays * (60 * 1000);
+
+        System.out.println("There are " + minutesInDays + " minutes in " + days + " days.");
+        System.out.println("And " + millisecondsInDays + " milliseconds in " + days + " days." );
     }
 }
